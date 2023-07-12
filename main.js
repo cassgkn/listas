@@ -6,10 +6,8 @@ $('form').on('submit', function(e){
     $(`<li>${adiconarNovaTarefa}</li>`).appendTo(novaTarefa);
     $(novaTarefa).appendTo('ul');
     $(novaTarefa).fadeIn(200);
-
+    $('#adicionar-tarefa').val(''); // zera o campo de inserir url
     $('li').css( 'list-style', 'none');
-
-    $('#endereco-imagem-nova').val(''); // zera o campo de inserir url
 
 })
 
